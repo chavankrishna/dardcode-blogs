@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
 import Home from './pages/Home'
 import Header from './components/Header'
+import FooterCom from './components/Footer'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
             <Route path='/dashboard' element={<Dashboard />} />
             <Route path='/projects' element={<Projects />} />
           </Routes>
+          <FooterCom />
       </BrowserRouter>
   )
 }
